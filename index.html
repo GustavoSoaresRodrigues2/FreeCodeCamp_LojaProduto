@@ -7,6 +7,8 @@
     <title>Loja de Hardwares</title>
 </head>
 <body>
+
+    <!-- HEADER FLEX -->
     <header id="header">
         <figure class="figure-img">
             <img 
@@ -16,39 +18,55 @@
             >
         </figure>
         <nav id="nav-bar">
-            <a href="" class="nav-link">Video Corporativo</a>
-            <a href="" class="nav-link">Prime</a>
-            <a href="" class="nav-link">Contate-nos</a>
+            <ul>
+                <li>
+                    <a href="" class="nav-link">Video Corporativo</a>
+                </li>
+                <li>
+                    <a href="" class="nav-link">Prime</a>
+                </li>
+                <li>
+                    <a href="" class="nav-link">Contate-nos</a>
+                </li>
+            </ul>
         </nav>
     </header>
-
-    <!-- MAIN -->
-    <div class="main">
-
-        <!-- FORM -->
-        <form id="form" action="" method="post">
-            <label for=""> <input id="email" type="email" placeholder="umExemplo@deEmail.com" required /></label>
-            <input type="submit" value="Começar !" id="submit" src="https://www.freecodecamp.com/email-submit" />
-        </form>
-        <!-- // FORM -->
-
-        
+    <!-- ///HEADER FLEX -->
 
 
-        <!-- VIDEO -->
-        <section id="demostrarVideo">
-            <iframe
-              id="video"
-              height="315"
-              src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
-              frameborder="0"
-              allowfullscreen
-            ></iframe>
+    <!-- CONTAINER -->
+    <div id="container">
+        <section id="section-form">
+            <!-- FORM -->
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                <h2>Entre na nossa Comunidade de Games !!!</h2>
+                <label for=""> <input id="email" type="email" placeholder="umExemplo@deEmail.com" required /></label>
+                <input type="submit" value="Vamos Começar !" id="submit" src="https://www.freecodecamp.com/email-submit" />
+            </form>
+            <!-- /// FORM -->
         </section>
-        <!-- // VIDEO -->
 
+            
+
+        <!-- MAIN -->
+        <div class="main">
+
+            <!-- VIDEO -->
+            <section id="demostrarVideo">
+                <iframe
+                id="video"
+                height="315"
+                src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+                frameborder="0"
+                allowfullscreen
+                ></iframe>
+            </section>
+            <!-- /// VIDEO -->
+
+        </div>
+        <!-- /// MAIN -->
     </div>
-    <!-- // MAIN -->
+    <!-- ///CONTAINER -->
 
 </body>
 </html>
