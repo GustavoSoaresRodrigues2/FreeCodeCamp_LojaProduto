@@ -25,10 +25,10 @@
                     <a href="#demostrarVideo" class="nav-link">Video Corporativo</a>
                 </li>
                 <li>
-                    <a href="" class="nav-link">Prime</a>
+                    <a href="#section-preco" class="nav-link">Prime</a>
                 </li>
                 <li>
-                    <a href="" class="nav-link">Contate-nos</a>
+                    <a href="#section-form" class="nav-link">Contate-nos</a>
                 </li>
             </ul>
         </nav>
@@ -43,7 +43,7 @@
             <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
                 <h2>Entre na nossa Comunidade de Games !!!</h2>
                 <h2>Sua diversão é a nossa paixão !</h2>
-                <label for=""> <input id="email" type="email" placeholder="umExemplo@deEmail.com" required /></label>
+                <label for=""> <input name='email' id="email" type="email" placeholder="umExemplo@deEmail.com" required /></label>
                 <input type="submit" value="Vamos Começar !" id="submit" src="https://www.freecodecamp.com/email-submit" />
             </form>
             <!-- /// FORM -->
@@ -103,9 +103,6 @@
             </section>
             <!-- ///SECTION INFO -->
 
-
-
-
             <!-- VIDEO -->
             <section id="demostrarVideo">
                 <iframe
@@ -118,11 +115,54 @@
             </section>
             <!-- /// VIDEO -->
 
+            
+            <!-- SECTION PREÇO -->
+            <section id="section-preco">
+                <div class="div-preco">
+                    <h2 class="tit-plano">Plano Grátis</h2>
+                    <span class="valor">R$ 0,00</span>
+                    <ul class="list-vant">
+                        <li class="vantag pri">Compra e Devolução de Produtos.</li>
+                        <li class="vantag">A chegada de Produtos pode levar entre 3 a 8 dias.</li>
+                        <li class="vantag">A devolução do valor do Produto pode levar entre 3 a 8 dias.</li>
+                        <li class="vantag">1 mês de Plano Pro gratuito.</li>
+                    </ul>
+                </div>
+                <div class="div-preco">
+                    <h2 class="tit-plano">Plano Pro</h2>
+                    <span class="valor">R$25,00</span>
+                    <ul class="list-vant">
+                        <li class="vantag pri">Compra e Devolução de Produtos.</li>
+                        <li class="vantag">A chegada de Produtos pode levar entre 3 a 5 dias.</li>
+                        <li class="vantag">A devolução do valor do Produto pode levar entre 3 a 5 dias.</li>
+                        <li class="vantag">Notificações de ofertas para Produtos Escolhidos</li>
+                    </ul>
+                </div>
+                <div class="div-preco">
+                    <h2 class="tit-plano">Plano Pro Ultra</h2>
+                    <span class="valor">R$ 70,00</span>
+                    <ul class="list-vant">
+                        <li class="vantag pri">Compra e Devolução de Produtos</li>
+                        <li class="vantag">A chegada de Produtos pode levar entre 2 a 3 dias.</li>
+                        <li class="vantag">A devolução do valor do Produto pode levar entre 2 a 3 dias.</li>
+                        <li class="vantag">Notificações de ofertas para Produtos Escolhidos</li>
+                        <li class="vantag">Assistencia Tecnica para a escolha do produto para a o seu uso diário.</li>
+                    </ul>
+                </div>
+
+            </section>
+            <!-- ///SECTION PREÇO -->
+
         </div>
         <!-- /// MAIN -->
 
-        <footer>
-            <a href="https://lordicon.com/">Icons by Lordicon.com</a>
+        <footer id="footer">
+            <div class="links">
+                <a href="https://lordicon.com/" target="_blank">Icons by Lordicon.com</a>
+                <a href="">Terms</a>
+                <a href="">Contate-nos</a>
+            </div>
+            <span>Copyright 2023, Original EOX Game</span>
         </footer>
 
 

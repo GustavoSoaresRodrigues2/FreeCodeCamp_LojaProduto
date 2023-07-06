@@ -24,6 +24,7 @@ body {
 
     background: linear-gradient( 
         #272727,
+        #272727 3%,
         #333333,
         #525252,
         #747474,
@@ -117,6 +118,14 @@ body {
 
 /* ///SECTION */
 
+/* SECTION VIDEO */
+    #demostrarVideo #video {
+        width: 650px;
+        height: 400px;
+    }
+
+/* SECTION VIDEO */
+
 /* FORM */
 
 #form {
@@ -209,14 +218,116 @@ body {
 
         justify-content: center;
     }
-
     /* ///SECTION INFO */
 
 
+    /* SECTION PRECO */
+        #section-preco {
+            display: flex;
+
+            justify-content: center;
+            align-items: flex-start;
+            text-align: center;
+        }
+
+
+        .div-preco {
+            display: flex;
+            flex-direction: column;
+            
+            margin: 10px;
+
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        .div-preco h2 {
+            font-size: 25px;
+
+            background: linear-gradient( 
+                #ff7323,
+                #ff833b,
+                #ff9f68
+            );
+
+            border-radius: 8px 8px 0px 0px;
+        }
+
+        .div-preco span {
+            background: linear-gradient( 
+                #ffa36e,
+                #ffc5a3,
+                #ffdcc8
+            );
+
+            padding: 8px 0px;
+            font-size: 20px;
+        }
+
+        .div-preco ul li {
+            text-decoration: none;
+            list-style: none;
+            text-align: justify;
+
+            padding: 8px;
+
+        }
+
+        .div-preco ul li:first-of-type {
+            background: linear-gradient( 
+                #ffdcc8,
+                #fff9f6,
+                #ffffff
+            );
+
+        }
+
+    /* ///SECTION PRECO */
 
 /* ///MAIN */
 
+/* FOOTER */
+#footer {
+    background: linear-gradient(
+        #fff,
+        #fff,
+        #dfdfdf,
+        #b4b4b4,
+        #a1a1a1,
+        #747474,
+        #525252,
+        #333333,
+        #272727,
+        #272727
+    );
+
+    height: 50px;
+    padding: 8px;
+
+    display: grid;
+}
+
+.links {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.links a {
+    color: #fc5c00;
+}
+
+/* //FOOTER */
+
 @media only screen and (max-width: 768px)  {
-    
+    #section-preco {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
+
 }
 
